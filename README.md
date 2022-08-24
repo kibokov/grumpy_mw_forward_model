@@ -12,8 +12,6 @@ tar xvf MK22_data_files.tar
 ```
  
 
-2. Assign the path of this data folder to the variable ```data_path``` in the first cell of both jupyter notebooks. Look at the notebooks for examples and further clarification. 
+2. Assign the path of this data folder in which you unpacked the data to the variable ```data_path``` in the first cell of both jupyter notebooks. Look at the notebooks for examples and further clarification. 
 
-3. 
-
-4. Run the notebooks cell-by-cell to produce the plots from the paper. 
+3. Run the notebooks cell-by-cell to produce the plots from the paper. 
