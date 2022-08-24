@@ -1,2 +1,3 @@
 # grumpy_mw_forward_model
-Code for the MW Forward Modeling paper with GRUMPY
+
+The jupyter notebooks in this repository contain the code to reproduce figures in [our paper](https://arxiv.org/abs/2112.04511). 
