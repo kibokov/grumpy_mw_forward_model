@@ -1,0 +1,131 @@
+#Title: Milky Way Satellite Census - I. The Observational Selection Function 
+#       for Milky Way Satellites in DES Y3 and Pan-STARRS DR1 
+#Authors: Drlica-Wagner A., Bechtol K., Mau S., McNanna M., Nadler E.O., 
+#         Pace A.B., Li T.S., Pieres A., Rozo E., Simon J.D., Walker A.R., 
+#         Wechsler R.H., Abbott T.M.C., Allam S., Annis J., Bertin E., 
+#         Brooks D., Burke D.L., Rosell A.C., Kind M.C., Carretero J., 
+#         Costanzi M., da Costa L.N., Vicente J.D., Desai S., Diehl H.T., 
+#         Doel P., Eifler T.F., Everett S., Flaugher B., Frieman J., 
+#         Garcia-Bellido J., Gaztanaga E., Gruen D., Gruendl R.A., Gschwend J.,
+#         Gutierrez G., Honscheid K., James D.J., Krause E., Kuehn K., 
+#         Kuropatkin N., Lahav O., Maia M.A.G., Marshall J.L., Melchior P., 
+#         Menanteau F., Miquel R., Palmese A., Plazas A.A., Sanchez E., 
+#         Scarpine V., Schubnell M., Serrano S., Sevilla-Noarbe I., 
+#         Smith M., Suchyta E., Tarle G. 
+#Table: Confirmed and candidate Milky Way satellites
+#================================================================================
+#Byte-by-byte Description of file: apjab7eb9t2_mrt.txt
+#--------------------------------------------------------------------------------
+#   Bytes Format Units    Label   Explanations
+#--------------------------------------------------------------------------------
+#   1- 17 A17    ---      Name    Satellite identifier (1)
+#  19- 26 A8     ---      Survey  Survey where system resides
+#      28 I1     ---      Class   System classification number (2)
+#  30- 37 F8.4   deg      RAdeg   Right Ascension in decimal degrees (J2000)
+#  39- 46 F8.4   deg      DEdeg   Declination in decimal degrees (J2000)
+#  48- 51 F4.1   mag      m-M     Published distance modulus
+#  53- 58 F6.2   arcmin   ah      Semi-major axis (3)
+#      60 A1     ---    l_e       Limit flag on e
+#  61- 65 F5.2   ---      e       Ellipticity; 1-b/a
+#  67- 69 I3     kpc      D       Derived heliocentric distance
+#  71- 74 I4     pc       r1/2    Azimuthally averaged physical half-light radius
+#  76- 81 F6.2   mag      VMag    Published absolute V band magnitude
+#  83- 88 A6     ---      Ref     Literature reference code(s) (4)
+#--------------------------------------------------------------------------------
+#Note (1): Bootes III has its approximate half-light and ellipticity estimated
+#          from Grillmair (2009a) [2009ApJ...693.1118G].
+#Note (2):
+#    1 = unconfirmed systems;
+#    2 = probable star clusters;
+#    3 = probable dwarfs;
+#    4 = kinematically confirmed dwarfs. 
+#Note (3): Of an ellipse containing half of the light.
+#Note (4): When two references are listed, the second was used for the 
+#          distance measurement.
+#  1 = Torrealba et al. (2019) [2019MNRAS.tmp.1548T];
+#  2 = Torrealba et al. (2016b) [2016MNRAS.463..712T];
+#  3 = Munoz et al. (2018) [2018ApJ...860...66M];
+#  4 = Grillmair et al. (2009) [2009ApJ...693.1118G];
+#  5 = Homma et al. (2019) [2019PASJ..tmp...91H];
+#  6 = Torrealba et al. (2018a) [2018MNRAS.475.5085T];
+#  7 = Mau et al. (2019b) [Submitted to ApJ];
+#  8 = Drlica-Wagner et al. (2015) [2015ApJ...813..109D];
+#  9 = Homma et al. (2017) [2018PASJ...70..S18H];
+# 10 = Carlin et al. (2017) [2017AJ....154..267C];
+# 11 = Torrealba et al. (2016a) [2016MNRAS.459.2370T];
+# 12 = Luque et al. (2017) [2017MNRAS.468...97L];
+# 13 = Longeard et al. (2019) [2018MNRAS.480.2609L];
+# 14 = Pietrzynski et al. (2009) [2009AJ....138..459P];
+# 15 = Kim et al. (2015c) [2015ApJ...808L..39K];
+# 16 = Koposov et al. (2018) [2018MNRAS.479.5343K];
+# 17 = Makarov et al. (2014) [2014A&A...570..A13M];
+# 18 = Pietrzynski et al. (2013) [2013Natur..495...76P];
+# 19 = Kim et al. (2016) [2016ApJ...833...16K];
+# 20 = Drlica-Wagner et al. (2016) [2016ApJ...833L...5D];
+# 21 = Mcconnachie et al. (2012) [2012AJ....144....4M];
+# 22 = Mutlu-Pakdil et al. (2018) [2018ApJ...863...25M];
+# 23 = Martinez et al. (2015) [2015MNRAS.454.1509M];
+# 24 = Graczyk et al. (2014) [2014ApJ...780...59G];
+# 25 = Koposov et al. (2015) [2015ApJ...805..130K].
+#--------------------------------------------------------------------------------
+LMC              XXX      4  80.8938 -69.7561 18.5 323.0    0.15  50 4735 -18.12 17
+SMC              XXX      4  13.1867 -72.8286 19.0 151.0    0.4   62 2728 -17.18 17 
+Sagittarius      XXX      4 283.8313 -30.5453 17.1 342.0    0.64  26 1565 -13.5  21     
+AntliaII         XXX      4 143.8868 -36.7673 20.6  76.2    0.38 132 2301  -9.03 1      
+AquariusII       PS1      4 338.4813  -9.3274 20.2   5.1    0.39 108  125  -4.4  2      
+BootesI          PS1      4 210.0200  14.5135 19.1   9.97   0.30  66  160  -6.02 3      
+BootesII         PS1      4 209.5141  12.8553 18.1   3.17   0.25  42   33  -2.94 3      
+BootesIII        PS1      4 209.3     26.8    18.4  30.0    0.5   47  289  -5.75 4      
+BootesIV         PS1      3 233.689   43.726  21.6   7.6    0.64 209  277  -4.53 5      
+CanesVenaticiI   PS1      4 202.0091  33.5521 21.7   7.12   0.44 218  338  -8.80 3      
+CanesVenaticiII  PS1      4 194.2927  34.3226 21.0   1.52   0.40 160   55  -5.17 3      
+Carina           XXX      4 100.4065 -50.9593 20.1  10.1    0.36 105  248  -9.43 3      
+CarinaII         XXX      4 114.1066 -57.9991 17.8   8.69   0.34  36   77  -4.5  6      
+CarinaIII        XXX      4 114.6298 -57.8997 17.2   3.75   0.55  28   20  -2.4  6      
+CentaurusI       XXX      3 189.585  -40.902  20.3   2.9    0.4  116   76  -5.55 7      
+CetusII          PS1DES   3  19.47   -17.42   17.4   1.9   -0.4   30   17   0.0  8      
+CetusIII         PS1DES   3  31.331   -4.270  22.0   1.23   0.76 251   44  -2.5  9      
+ColumbaI         PS1DES   3  82.86   -28.01   21.3   2.2    0.3  183   98  -4.2  10     
+ComaBerenices    PS1      4 186.7454  23.9069 18.2   5.64   0.37  44   57  -4.38 3      
+CraterII         PS1      4 177.310  -18.413  20.4  31.2   -0.1  117 1066  -8.2  11     
+DESJ0225+0304    DES      1  36.4267   3.0695 16.9   2.68   0.61  24   12  -1.1  12     
+Draco            PS1      4 260.0684  57.9185 19.4   9.67   0.29  76  180  -8.71 3      
+DracoII          PS1      3 238.174   64.579  16.7   3.0    0.23  22   17  -0.8  13     
+EridanusII       DES      4  56.0925 -43.5329 22.9   1.77   0.35 380  158  -7.21 3      
+Fornax           DES      4  39.9583 -34.4997 20.8  19.6    0.29 147  707 -13.46 3 
+GrusI            DES      3 344.1797 -50.18   20.4   0.81   0.45 120   21  -3.47 3      
+GrusII           DES      3 331.02   -46.44   18.6   6.0   -0.2   53   92  -3.9  8      
+Hercules         PS1      4 247.7722  12.7852 20.6   5.63   0.69 132  120  -5.83 3      
+HorologiumI      DES      4  43.8813 -54.116  19.5   1.59   0.27  79   31  -3.55 3      
+HorologiumII     DES      3  49.1077 -50.0486 19.5   2.09   0.52  78   33  -2.6  15     
+HydraII          XXX      3 185.4251 -31.9860 20.9   1.52   0.24 151   58  -4.60 3      
+HydrusI          XXX      4  37.389  -79.3089 17.2   7.42   0.21  28   53  -4.71 16     
+IndusII          DES      1 309.72   -46.16   21.7   2.9   -0.4  214  180  -4.3  8      
+Kim2             DES      2 317.2020 -51.1671 20.0   0.48   0.32 100   12  -3.32 3      
+Leavens         PS1      2 174.0668 -10.8772 20.8   0.51   0.17 145   20  -4.80 3      
+LeoI             PS1      4 152.1146  12.3059 22.0   3.65   0.3  254  226 -11.78 3      
+LeoII            PS1      4 168.3627  22.1529 21.8   2.52   0.07 233  165  -9.74 3      
+LeoIV            PS1      4 173.2405  -0.5453 20.9   2.54   0.17 154  104  -4.99 3      
+LeoV             PS1      4 172.7857   2.2194 21.3   1.00   0.43 178   39  -4.40 3      
+PegasusIII       PS1      4 336.102    5.405  21.7   0.85   0.38 215   42  -3.4  19     
+PhoenixII        DES      4 354.996  -54.4115 19.6   1.49   0.67  83   21  -3.30 3      
+PictorI          DES      3  70.949  -50.2854 20.3   0.88   0.63 114   18  -3.45 3      
+PictorII         XXX      3 101.180  -59.897  18.3   3.8    0.13  46   47  -3.2  20     
+PiscesII         PS1      4 344.6345   5.9526 21.3   1.12   0.34 182   48  -4.22 3      
+ReticulumII      DES      4  53.9203 -54.0513 17.4   5.52   0.58  30   31  -3.88 3      
+ReticulumIII     DES      3  56.36   -60.45   19.8   2.4   -0.4   92   64  -3.3  8      
+SagittariusII    PS1      4 298.1647 -22.0651 19.2   1.6   -0.1   69   32  -5.2  22     
+Sculptor         DES      4  15.0183 -33.7186 19.6  11.17   0.33  84  223 -10.82 3  
+Segue1           PS1      4 151.7504  16.0756 16.8   3.62   0.33  23   20  -1.30 3      
+Segue2           PS1      3  34.8226  20.1624 17.7   3.76   0.22  35   34  -1.86 3      
+Sextans          PS1      4 153.2628  -1.6133 19.7  16.5    0.30  86  345  -8.72 3      
+TriangulumII     PS1      3  33.3252  36.1702 17.4   1.99   0.46  30   13  -1.60 3      
+TucanaII         DES      4 342.9796 -58.5689 18.8  12.59   0.39  58  165  -3.8  25     
+TucanaIII        DES      3 359.15   -59.60   17.0   6.0    0.0   25   44  -2.4  8      
+TucanaIV         DES      4   0.73   -60.85   18.4  11.8    0.4   48  128  -3.5  8      
+TucanaV          DES      3 354.35   -63.27   18.7   1.8    0.7   55   16  -1.6  8      
+UrsaMajorI       PS1      4 158.7706  51.9479 19.9   8.31   0.59  97  151  -5.12 3      
+UrsaMajorII      PS1      4 132.8726  63.1335 17.5  13.8    0.56  32   85  -4.25 3      
+UrsaMinor        PS1      4 227.2420  67.2221 19.4  18.3    0.55  76  272  -9.03 3      
+VirgoI           PS1      3 180.038   -0.681  19.8   1.76   0.59  91   30  -0.33 9      
+Willman1         PS1      4 162.3436  51.0501 17.9   2.51   0.47  38   20  -2.53 3

@@ -5,6 +5,8 @@ The jupyter notebooks in this repository contain the code to reproduce figures f
 
 1. Download the data file from [here](https://data.mendeley.com/datasets/zmwh6wxyv3/1). Un-tar the file and note down the path of this folder/directory. 
 
-2. Assign the path of this data folder to the variable ```data_path``` as done 
+2. Assign the path of this data folder to the variable ```data_path``` in the first cell of both jupyter notebooks. Look at the notebooks for examples and further clarification. 
 
-3. Run the notebooks cell-by-cell to produce the plots from the paper. 
+3. 
+
+4. Run the notebooks cell-by-cell to produce the plots from the paper. 
