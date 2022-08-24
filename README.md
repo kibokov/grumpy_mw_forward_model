@@ -7,6 +7,7 @@ The jupyter notebooks in this repository contain the code to reproduce figures f
 
 ``
 gzip -d MK22_data_files.tar.gz
+
 tar xvf MK22_data_files.tar
 ``
  
