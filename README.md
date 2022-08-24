@@ -5,11 +5,11 @@ The jupyter notebooks in this repository contain the code to reproduce figures f
 
 1. Download the data file <tt>MK22_data_files.tar.gz</tt> from [here](https://data.mendeley.com/datasets/zmwh6wxyv3/1). Place the <tt>MK22_data_files.tar.gz</tt> file into directory of your choice and unpack the file: 
 
-``
+```
 gzip -d MK22_data_files.tar.gz
 
 tar xvf MK22_data_files.tar
-``
+```
  
 
 2. Assign the path of this data folder to the variable ```data_path``` in the first cell of both jupyter notebooks. Look at the notebooks for examples and further clarification. 
