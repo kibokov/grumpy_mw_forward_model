@@ -1,0 +1,7 @@
+#       M200c   log(Mstar/M200c)
+#        Msun   
+#
+Sim_hom  2e9  -3.50
+Sim_106  2e9  -3.30
+Sim3kms  2e9  -3.17
+Sim107   2e9  -3.16
