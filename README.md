@@ -1,6 +1,12 @@
 # grumpy_mw_forward_model
 
-The jupyter notebooks in this repository contain the code to reproduce figures from [Manwadkar & Kravtsov 2022](https://arxiv.org/abs/2112.04511). The entire code is split into two notebooks. Part 1 includes the code to forward modeling the satellite population for comparison with observed samples in the DES, PS1 etc. Part 2 includes code for the rest of the figures in the paper. The data to reproduce all these figures is available at the Mendeley Data [here](https://data.mendeley.com/datasets/zmwh6wxyv3/1). Follow the below steps to reproduce the paper figures using the above jupyter notebooks.  
+The jupyter notebooks in this repository contain the code to reproduce figures from [Manwadkar & Kravtsov 2022](https://arxiv.org/abs/2112.04511). The entire code is split into two notebooks. Part 1 includes the code to forward modeling the satellite population for comparison with observed samples in the DES, PS1 etc. Part 2 includes code for the rest of the figures in the paper. 
+
+Note that this code was tested with Python 3.9 on Linux and MacOS operating systems. It is not expected to run on Windows because [HealPy](https://healpy.readthedocs.io/en/latest/) package it requires is not available under Windows. 
+
+These notebooks depend on the following Python packages: [Pandas](https://pandas.pydata.org/), [AstroPy](https://www.astropy.org/), [tqdm](https://tqdm.github.io/), [PyYAML](https://pyyaml.org/), [XGBoost](https://xgboost.readthedocs.io/en/stable/install.html#python), [HealPy](https://healpy.readthedocs.io/en/latest/). 
+
+The data to reproduce all these figures is available at the Mendeley Data [here](https://data.mendeley.com/datasets/zmwh6wxyv3/1). Follow the below steps to reproduce the paper figures using the above jupyter notebooks.  
 
 
 1. Download the data file <tt>MK22_data_files.tar.gz</tt> from [here](https://data.mendeley.com/datasets/zmwh6wxyv3/1). Place the <tt>MK22_data_files.tar.gz</tt> file into directory of your choice and unpack the file: 
